@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 52px 80px 33px 80px;
+
+  background-color: #313030;
+
+  &__social {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    .social__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 35px;
+      height: 35px;
+
+      border-radius: 50%;
+      background-color: rgb(180, 180, 180);
+      a {
+        color: rgb(27, 27, 27);
+      }
+    }
+  }
+}
