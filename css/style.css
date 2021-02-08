@@ -677,6 +677,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border: none;
+  padding: 0;
 }
 .contact__form .form__input input[type=text] {
   width: 235px;

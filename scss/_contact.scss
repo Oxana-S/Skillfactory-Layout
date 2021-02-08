@@ -54,6 +54,9 @@
     .form__input {
       display: flex;
       justify-content: space-between;
+      border: none;
+      padding: 0;
+      
 
       input[type="text"] {
         width: 235px;
